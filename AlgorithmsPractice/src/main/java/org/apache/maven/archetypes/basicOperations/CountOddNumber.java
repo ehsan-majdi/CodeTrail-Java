@@ -1,10 +1,10 @@
-package org.apache.maven.archetypes.sorting;
+package org.apache.maven.archetypes.basicOperations;
 
 import java.util.ArrayList;
 
 public class CountOddNumber {
 
-    public static void main(String[] args) {
+    public static void count() {
         int[] number = {1, 2, 3, 4, 5, 6};
 
         int count = 0;

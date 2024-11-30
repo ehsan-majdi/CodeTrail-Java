@@ -1,4 +1,4 @@
-package org.apache.maven.archetypes.sorting;
+package org.apache.maven.archetypes.basicOperations;
 
 public class SumOfEvenNumbers {
         public static void main(String[] args) {

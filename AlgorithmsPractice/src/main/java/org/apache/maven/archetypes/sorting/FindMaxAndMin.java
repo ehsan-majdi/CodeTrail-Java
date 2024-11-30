@@ -1,8 +1,6 @@
 package org.apache.maven.archetypes.sorting;
 
-public class MaxAndMinProblem {
-
-
+public class FindMaxAndMin {
 
     public static void main(String[] args) {
         int[] number = {10, 5, 20, 8, 2};

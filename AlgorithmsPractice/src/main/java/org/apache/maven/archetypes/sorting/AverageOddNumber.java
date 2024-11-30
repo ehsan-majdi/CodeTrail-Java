@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class AverageOddNumber {
 
-    public static void main(String[] args) {
+    public static void average() {
         int[] number = {6,9,10,1,4,3};
 
         int sum = 0;

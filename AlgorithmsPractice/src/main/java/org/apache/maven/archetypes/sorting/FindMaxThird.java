@@ -2,7 +2,7 @@ package org.apache.maven.archetypes.sorting;
 
 import java.util.Arrays;
 
-public class findMaxThird {
+public class FindMaxThird {
 
 
 //    public static void main(String[] args) {
