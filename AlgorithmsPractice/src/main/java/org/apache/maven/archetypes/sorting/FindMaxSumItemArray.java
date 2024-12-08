@@ -9,7 +9,7 @@ public class FindMaxSumItemArray {
         ArrayList<Integer> oddList = new ArrayList<>();
         ArrayList<Integer> evenList = new ArrayList<>();
         for (int j : numbers) {
-            if (j % 2 == 0) { // بررسی زوج بودن عدد
+            if (j % 2 == 0) {
                 evenList.add(j);
             }else {
                 oddList.add(j);
