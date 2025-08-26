@@ -35,10 +35,10 @@ public class WordSearch {
         grid[i][j] = '#';
 
 
-        boolean found = search(grid, word, i - 1, j, index + 1) || // بالا
-                search(grid, word, i + 1, j, index + 1) || // پایین
-                search(grid, word, i, j - 1, index + 1) || // چپ
-                search(grid, word, i, j + 1, index + 1);   // راست
+        boolean found = search(grid, word, i - 1, j, index + 1) ||
+                search(grid, word, i + 1, j, index + 1) ||
+                search(grid, word, i, j - 1, index + 1) ||
+                search(grid, word, i, j + 1, index + 1);
 
         grid[i][j] = temp;
 

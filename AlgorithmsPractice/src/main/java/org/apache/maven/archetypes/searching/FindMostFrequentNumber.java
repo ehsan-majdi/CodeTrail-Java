@@ -4,7 +4,7 @@ import java.util.*;
 
 public class FindMostFrequentNumber {
     public static void main(String[] args) {
-        int[] number = {3, 1, 4, 4, 5, 3, 3, 1, 4};
+        int[] number = {1, 1, 4, 4, 5, 3, 3, 1, 4};
         int maxCount = 0;
         int maxNumber = 0;
 
